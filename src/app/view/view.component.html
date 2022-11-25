@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row div col col col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <div class="row p-5 mt-5">
+
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">User Id</th>
+                    <th scope="col">Id</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">compleated</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let i of data">
+                    <td>{{i.userId}}</td>
+                    <td>{{i.id}}</td>
+                    <td>{{i.title}}</td>
+                    <td>{{i.completed}}</td>
+
+                  </tr>
+                </tbody>
+              </table>
+
+
+        </div>
+    </div>
+</div>
