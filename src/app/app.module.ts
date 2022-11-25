@@ -5,19 +5,24 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToDoComponent } from './to-do/to-do.component';
+import { ViewComponent } from './view/view.component';
 
 const myRoute:Routes=[
   {
     path:"",
     component:ToDoComponent
-    
+  },
+  {
+    path:"view",
+    component:ViewComponent
   }
 ]
 
 @NgModule({
   declarations: [
     AppComponent,
-    ToDoComponent
+    ToDoComponent,
+    ViewComponent
   ],
   imports: [
     BrowserModule,
