@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ToDoComponent } from './to-do/to-do.component';
 import { ViewComponent } from './view/view.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 const myRoute:Routes=[
   {
@@ -22,7 +23,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     ToDoComponent,
-    ViewComponent
+    ViewComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
